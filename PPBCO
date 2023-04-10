@@ -1,0 +1,99 @@
+local args = {
+    [1] = {
+        ["Properties"] = {
+            ["WalkAnimation"] = 2510242378,
+            ["MoodAnimation"] = 11573370910,
+            ["Face"] = 144075659,
+            ["ProportionScale"] = 0,
+            ["ClimbAnimation"] = 2510230574,
+            ["Shirt"] = 7090127873,
+            ["FaceAccessory"] = "",
+            ["RightArmColor"] = {
+                ["b"] = 98.00000175833702,
+                ["IsRGBTable"] = true,
+                ["g"] = 95.00000193715096,
+                ["r"] = 99.00000169873238
+            },
+            ["HairAccessory"] = "",
+            ["RightArm"] = 11775679683,
+            ["Head"] = 11775683481,
+            ["FallAnimation"] = 2510233257,
+            ["TorsoColor"] = {
+                ["b"] = 98.00000175833702,
+                ["IsRGBTable"] = true,
+                ["g"] = 95.00000193715096,
+                ["r"] = 99.00000169873238
+            },
+            ["DepthScale"] = 1,
+            ["LeftArm"] = 11775676733,
+            ["HeightScale"] = 1.2000000476837158,
+            ["LeftLeg"] = 11775678171,
+            ["RightLegColor"] = {
+                ["b"] = 98.00000175833702,
+                ["IsRGBTable"] = true,
+                ["g"] = 95.00000193715096,
+                ["r"] = 99.00000169873238
+            },
+            ["LeftLegColor"] = {
+                ["b"] = 98.00000175833702,
+                ["IsRGBTable"] = true,
+                ["g"] = 95.00000193715096,
+                ["r"] = 99.00000169873238
+            },
+            ["WidthScale"] = 0.949999988079071,
+            ["BodyTypeScale"] = 1,
+            ["RunAnimation"] = 2510238627,
+            ["LeftArmColor"] = {
+                ["b"] = 98.00000175833702,
+                ["IsRGBTable"] = true,
+                ["g"] = 95.00000193715096,
+                ["r"] = 99.00000169873238
+            },
+            ["Pants"] = 7159365433,
+            ["LayeredAccessories"] = {
+                [1] = {
+                    ["Order"] = 3,
+                    ["AssetId"] = 11857462241,
+                    ["AccessoryType"] = "Jacket",
+                    ["IsLayered"] = true
+                },
+                [2] = {
+                    ["Order"] = 0,
+                    ["AssetId"] = 9753184567,
+                    ["AccessoryType"] = "DressSkirt",
+                    ["IsLayered"] = true
+                },
+                [3] = {
+                    ["AssetId"] = 11775687844,
+                    ["Order"] = 8,
+                    ["IsLayered"] = true,
+                    ["Puffiness"] = 0.5,
+                    ["AccessoryType"] = "Shirt"
+                }
+            },
+            ["WaistAccessory"] = "",
+            ["ShouldersAccessory"] = "",
+            ["NeckAccessory"] = "",
+            ["HatAccessory"] = "",
+            ["FrontAccessory"] = "",
+            ["SwimAnimation"] = 2510240941,
+            ["HeadColor"] = {
+                ["b"] = 98.00000175833702,
+                ["IsRGBTable"] = true,
+                ["g"] = 95.00000193715096,
+                ["r"] = 99.00000169873238
+            },
+            ["BackAccessory"] = "11775685012",
+            ["IdleAnimation"] = 2510235063,
+            ["Torso"] = 11775682187,
+            ["HeadScale"] = 1,
+            ["JumpAnimation"] = 2510236649,
+            ["GraphicTShirt"] = 0,
+            ["RightLeg"] = 11775680970
+        },
+        ["Action"] = "CreateAndWearHumanoidDescription",
+        ["RigType"] = Enum.HumanoidRigType.R15
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("CatalogGuiRemote"):InvokeServer(unpack(args))
